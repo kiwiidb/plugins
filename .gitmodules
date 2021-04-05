@@ -22,3 +22,6 @@
 [submodule "python-teos"]
 	path = python-teos
 	url = https://github.com/talaia-labs/python-teos/
+[submodule "sparko"]
+	path = sparko
+	url = https://github.com/fiatjaf/sparko
