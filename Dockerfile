@@ -5,6 +5,7 @@ ARG EXTRA_PLUGINS='--recurse-submodules=csvexportpays \
 --recurse-submodules=jwt-factory \
 --recurse-submodules=python-teos \
 --recurse-submodules=trustedcoin \
+--recurse-submodules=sparko \
 --recurse-submodules=webhook'
 
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential python3-wheel python3-dev python3-venv libleveldb-dev pkg-config libc-bin git libpq-dev postgresql wget
