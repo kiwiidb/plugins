@@ -20,6 +20,7 @@ RUN mkdir -p /opt/lightningd/plugins/ && \
     wget https://github.com/fiatjaf/sparko/releases/download/v2.5/sparko_linux_amd64 && \
     wget https://raw.githubusercontent.com/BoltzExchange/channel-creation-plugin/master/channel-creation.py && \
     chmod +x channel-creation.py && \
+    chmod +x rebalance.py && \
     chmod +x trustedcoin_linux_amd64 && \
     chmod +x sparko_linux_amd64 && \
     pip3 install setuptools && \
